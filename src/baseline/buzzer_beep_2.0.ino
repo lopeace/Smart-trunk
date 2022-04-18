@@ -21,16 +21,16 @@ const int BUZZER_PIN = 5;
 ezBuzzer buzzer(BUZZER_PIN); // create ezBuzzer object that attach to a pin;
 
 int melody1[] = {
-  NOTE_G5, NOTE_C5, NOTE_D5,
+  NOTE_G5
 };
 int melody2[] = {
   NOTE_E5, NOTE_E5, NOTE_E5
 };
 int noteDurations1[] = {
-  8, 8, 4,
+  2
 };
 int noteDurations2[] = {
-  8, 8, 4,
+  8, 8, 8
 };
 int noteLength1,noteLength2;
 
